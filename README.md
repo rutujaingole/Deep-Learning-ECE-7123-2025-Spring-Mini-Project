@@ -16,8 +16,7 @@ Through extensive experimentation with model configurations and hyperparameters,
 | **Optimizer** | SGD |
 | **Learning Rate Scheduler** | Cosine Annealing with Warmup |
 | **Loss Function** | Smooth Cross-Entropy Loss (0.05) |
-| **Best Test Accuracy** | **95.50%** |
-| **Kaggle Score** | **0.85694** |
+| **Best Test Accuracy** | **95.56%** |
 | **Total Parameters** | **4,916,284** |
 
 ---
