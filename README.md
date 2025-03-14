@@ -2,7 +2,7 @@
 
 Our project focuses on designing a **custom ResNet architecture from scratch with fewer than 5 million parameters.** The goal is to effectively classify images from the CIFAR-10 dataset while optimizing both performance and efficiency.  
 
-The architecture leverages the concept of **BasicBlocks**, which consist of two convolutional layers with batch normalization and ReLU activation. By stacking multiple layers of these blocks, our model is able to extract hierarchical features from the dataset. We modified the `ResNet()` function to support different configurations, including models with **3 and 4 block layers.**  
+The architecture leverages the concept of **BasicBlocks**, which consist of two convolutional layers with batch normalization and ReLU activation. By stacking multiple layers of these blocks, our model is able to extract hierarchical features from the dataset.
 
 Through extensive experimentation with model configurations and hyperparameters, we successfully trained a custom ResNet model with 3 stages that achieves a test accuracy of 95.01% with 4,918,602 parameters,** staying within the constraint of 5M parameters.  
 
