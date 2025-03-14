@@ -46,14 +46,14 @@ Through extensive experimentation with model configurations and hyperparameters,
 
 ---
 
-## 🛠️ **Approaches Used**
-✅ Custom ResNet Architecture with **3 Residual Blocks**  
-✅ Data Augmentation: **Random Crop, RandAugment, Random Erasing**  
-✅ **Label Smoothing CrossEntropy Loss**  
-✅ **Cosine Annealing LR Scheduler with Warmup**  
-✅ Optimizer: **SGD with Momentum**  
-✅ Normalization adapted for **Custom Kaggle Dataset**  
-✅ Inference Pipeline for **PKL file testing & submissions.csv generation**
+##  **Approaches Used**
+ - Custom ResNet Architecture with **3 Residual Blocks**  
+ -  Data Augmentation: **Random Crop, RandAugment, Random Erasing**  
+ - **Label Smoothing CrossEntropy Loss**  
+ -  **Cosine Annealing LR Scheduler with Warmup**  
+ -  Optimizer: **SGD with Momentum**  
+ -  Normalization adapted for **Custom Kaggle Dataset**  
+ - Inference Pipeline for **PKL file testing & submissions.csv generation**
 
 ---
 
