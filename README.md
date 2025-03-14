@@ -1,14 +1,13 @@
-
 # 🛡️ CIFAR-10 Image Classification with Custom ResNet
 
-This repository contains our **Deep Learning Mini Project** for CIFAR-10 image classification using a **Custom ResNet Architecture** under **5M parameters**, achieving **95.50% test accuracy** and **0.85694 Kaggle score**.
+This repository contains our **Deep Learning Mini Project** for CIFAR-10 image classification using a **Custom ResNet Architecture** under **5M parameters**, achieving **95.56% test accuracy** 
 
 ---
 
 ## 📂 Project Structure
 
 ```
-📂 CIFAR10-ResNet/
+📂 Deep-Learning-ECE-7123-2025-Spring-Mini-Project/
 │
 ├── 📂 code/
 │      └── ResNet_CIFAR10.ipynb         # Main notebook for training and inference
@@ -52,7 +51,6 @@ Design a **custom lightweight ResNet architecture under 5M parameters** that **a
 |----------------|---------------------|
 | Train Accuracy        | **96.24%** |
 | Validation Accuracy | **95.50%** |
-| Kaggle Score          | **0.85694** |
 
 ---
 
@@ -76,8 +74,8 @@ Conv2d → BN → ReLU
 ## 🛠️ **Installation**
 ### Clone the repository
 ```bash
-git clone https://github.com/<your-username>/CIFAR10-ResNet
-cd CIFAR10-ResNet
+git clone https://github.com/rutujaingole/Deep-Learning-ECE-7123-2025-Spring-Mini-Project.git
+cd Deep-Learning-ECE-7123-2025-Spring-Mini-Project
 ```
 
 ### Install Dependencies
@@ -104,14 +102,12 @@ python inference.py
 
 ## 🏁 **Final Submission**
 - Generated `submissions.csv` for Kaggle using `cifar_test_nolabel.pkl`
-- Final Score: **0.85694**
-
 ---
 
 ## 👤 **Contributors**
-- **Rutuja Ingole**  
-- **Tanvi Takavane**  
-- **Abhishek Agrawal**
+- **Rutuja Ingole**  Net ID: rdi4221
+- **Tanvi Takavane**  Net ID: rdi4221
+- **Abhishek Agrawal** Net ID: rdi4221
 
 ---
 
@@ -131,12 +127,7 @@ MIT License
 
 ---
 
-## 🔗 Kaggle Leaderboard
-[Final Kaggle Submission](https://www.kaggle.com/competitions/cifar10-resnet/)
-
----
-
 ## 🌟 **GitHub Repository Link for Gradescope Submission**
 ```
-https://github.com/<your-username>/CIFAR10-ResNet
+https://github.com/rutujaingole/Deep-Learning-ECE-7123-2025-Spring-Mini-Project
 ```
