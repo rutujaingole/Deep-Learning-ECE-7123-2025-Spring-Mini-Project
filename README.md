@@ -46,11 +46,6 @@ Through extensive experimentation with model configurations and hyperparameters,
 
 ---
 
-## 🚀 **Objective**
-Design a **custom lightweight ResNet architecture under 5M parameters** that **achieves high test accuracy on CIFAR-10** and **generalizes well on unseen Kaggle dataset.**
-
----
-
 ## 🛠️ **Approaches Used**
 ✅ Custom ResNet Architecture with **3 Residual Blocks**  
 ✅ Data Augmentation: **Random Crop, RandAugment, Random Erasing**  
