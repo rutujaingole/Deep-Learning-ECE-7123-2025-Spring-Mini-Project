@@ -65,11 +65,6 @@ Through extensive experimentation with model configurations and hyperparameters,
 
 ---
 
-## 📉 **Training Loss Curve**
-<img src="./plots/loss_curve.png" alt="Loss Curve" width="500">
-
----
-
 ## 🏗️ Model Architecture
 ```
 ResNet-18 Custom
