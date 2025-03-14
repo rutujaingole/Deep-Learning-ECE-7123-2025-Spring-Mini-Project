@@ -6,19 +6,21 @@ The architecture leverages the concept of **BasicBlocks**, which consist of two 
 
 Through extensive experimentation with model configurations and hyperparameters, we successfully trained a **ResNet-24 variant that achieves a test accuracy of 95.01% with 4,918,602 parameters,** staying within the constraint of 5M parameters.  
 
-- **B (Number of Blocks):** [3, 5, 3]  
-- **C (Channels per Block):** [64, 128, 256]  
-- **F (Filter Size):** 3x3  
-- **K (Kernel Size):** 3x3  
-- **P (Pooling Size):** 8x8  
-- **Optimizer:** SGD  
-- **Learning Rate Scheduler:** Cosine Annealing with Step Decay  
-- **Initial Learning Rate:** 0.01  
-- **Best Train Accuracy:** 99.01%  
-- **Best Test Accuracy:** 95.01%  
-- **Total Parameters:** 4,918,602  
----
 
+| Parameter             | Value                  |
+|----------------|----------------------|
+| **B (Number of Blocks)** | [3, 4, 3] |
+| **C (Channels per Block)** | [66, 132, 264] |
+| **F (Filter Size)** | 3x3 |
+| **P (Pooling Size)** | 8x8 |
+| **Optimizer** | SGD |
+| **Learning Rate Scheduler** | Cosine Annealing with Warmup |
+| **Loss Function** | Smooth Cross-Entropy Loss (0.05) |
+| **Best Test Accuracy** | **95.50%** |
+| **Kaggle Score** | **0.85694** |
+| **Total Parameters** | **4,916,284** |
+
+---
 ## 📂 Project Structure
 
 ```
