@@ -1,4 +1,4 @@
-# CIFAR-10 Image Classification with Custom ResNet - Perceptions
+# CIFAR-10 Image Classification with Custom ResNet - Perceptions (ECE 7123)
 
 Our project focuses on designing a **custom ResNet architecture from scratch with fewer than 5 million parameters.** The goal is to effectively classify images from the CIFAR-10 dataset while optimizing both performance and efficiency.  
 
