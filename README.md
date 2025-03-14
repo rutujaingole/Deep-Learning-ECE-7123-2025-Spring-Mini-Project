@@ -1,24 +1,22 @@
 # CIFAR-10 Image Classification with Custom ResNet - Perceptions
 
-Our project focuses on designing a custom ResNet architecture from scratch with fewer than 5 million parameters. The goal is to effectively classify images from the CIFAR-10 dataset while optimizing both performance and efficiency.
+Our project focuses on designing a **custom ResNet architecture from scratch with fewer than 5 million parameters.** The goal is to effectively classify images from the CIFAR-10 dataset while optimizing both performance and efficiency.  
 
-The architecture leverages the concept of BasicBlocks, which consist of two convolutional layers with batch normalization and ReLU activation. By stacking multiple layers of these blocks, our model is able to extract hierarchical features from the dataset. We modified the ResNet() function to support different configurations, including models with 3 and 4 block layers.
+The architecture leverages the concept of **BasicBlocks**, which consist of two convolutional layers with batch normalization and ReLU activation. By stacking multiple layers of these blocks, our model is able to extract hierarchical features from the dataset. We modified the `ResNet()` function to support different configurations, including models with **3 and 4 block layers.**  
 
-Through extensive experimentation with model configurations and hyperparameters, we successfully trained a ResNet-24 variant that achieves a test accuracy of 95.01% with 4,918,602 parameters, staying within the constraint of 5M parameters.
+Through extensive experimentation with model configurations and hyperparameters, we successfully trained a **ResNet-24 variant that achieves a test accuracy of 95.01% with 4,918,602 parameters,** staying within the constraint of 5M parameters.  
 
-Final Model Configuration:
-B (Number of Blocks): [3, 5, 3]
-C (Channels per Block): [64, 128, 256]
-F (Filter Size): 3x3
-K (Kernel Size): 3x3
-P (Pooling Size): 8x8
-Optimizer: SGD
-Learning Rate Scheduler: Cosine Annealing with Step Decay
-Initial Learning Rate: 0.01
-Best Train Accuracy: 99.01%
-Best Test Accuracy: 95.01%
-Total Parameters: 4,918,602
-
+- **B (Number of Blocks):** [3, 5, 3]  
+- **C (Channels per Block):** [64, 128, 256]  
+- **F (Filter Size):** 3x3  
+- **K (Kernel Size):** 3x3  
+- **P (Pooling Size):** 8x8  
+- **Optimizer:** SGD  
+- **Learning Rate Scheduler:** Cosine Annealing with Step Decay  
+- **Initial Learning Rate:** 0.01  
+- **Best Train Accuracy:** 99.01%  
+- **Best Test Accuracy:** 95.01%  
+- **Total Parameters:** 4,918,602  
 ---
 
 ## 📂 Project Structure
