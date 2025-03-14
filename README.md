@@ -57,28 +57,23 @@ Through extensive experimentation with model configurations and hyperparameters,
 
 ---
 
-## 🎯 **Results**
+##  **Results**
 | Metric             | Score         |
 |----------------|---------------------|
 | Train Accuracy        | **96.24%** |
 | Validation Accuracy | **95.50%** |
 ---
 
-## 🛠️ **Installation**
+##  **Installation**
 ### Clone the repository
 ```bash
 git clone https://github.com/rutujaingole/Deep-Learning-ECE-7123-2025-Spring-Mini-Project.git
 cd Deep-Learning-ECE-7123-2025-Spring-Mini-Project
 ```
 
-### Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
 ---
 
-## 📚 **Reproduce Results**
+##  **Reproduce Results**
 
 ### Run the Jupyter Notebook:
 ```bash
@@ -93,7 +88,7 @@ python inference.py
 
 ---
 
-## 🏁 **Final Submission**
+##  **Final Submission**
 - Generated `submissions.csv` for Kaggle using `cifar_test_nolabel.pkl`
 ---
 
@@ -104,7 +99,7 @@ python inference.py
 
 ---
 
-## 📌 Reference Papers
+##  Reference Papers
 - Deep Residual Learning for Image Recognition (He et al.)
 - RandAugment: Practical Automated Data Augmentation Strategies
 
@@ -115,7 +110,7 @@ python inference.py
 
 ---
 
-## 🌟 **GitHub Repository Link for Gradescope Submission**
+##  **GitHub Repository Link for Gradescope Submission**
 ```
 https://github.com/rutujaingole/Deep-Learning-ECE-7123-2025-Spring-Mini-Project
 ```
