@@ -62,19 +62,6 @@ Through extensive experimentation with model configurations and hyperparameters,
 |----------------|---------------------|
 | Train Accuracy        | **96.24%** |
 | Validation Accuracy | **95.50%** |
-
----
-
-## 🏗️ Model Architecture
-```
-ResNet-18 Custom
--------------------
-Conv2d → BN → ReLU
-→ 3 Residual Blocks (66-132-264 Channels)
-→ Global Average Pooling
-→ Fully Connected Layer
-```
-
 ---
 
 ## 🛠️ **Installation**
@@ -123,12 +110,7 @@ python inference.py
 
 ---
 
-## 🛡️ License
-MIT License
-
----
-
-## 🔗 Project Report (AAAI Format)
+## 🔗 Project Report
 [Deep Learning Mini Project Report (PDF)](./docs/project_report.pdf)
 
 ---
