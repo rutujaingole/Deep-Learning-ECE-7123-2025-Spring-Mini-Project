@@ -32,14 +32,14 @@ Through extensive experimentation with model configurations and hyperparameters,
 ├── 📂 trained_model/
 │      └── model_weights.pth            # Trained model weights
 │
-├── 📂 docs/
-│      └── project_report.pdf          
+├── 📂 docs/   
+│      └── project_report.pdf            # Project documentation         
 │
 ├── 📂 plots/
 │      └── loss_curve.png
 │      └── accuracy_curve.png
 │      └── confusion_matrix.png
-├                      # Project documentation
+├                     
 │
 └── ── 📂 predictions/
 │         └──submissions.csv
