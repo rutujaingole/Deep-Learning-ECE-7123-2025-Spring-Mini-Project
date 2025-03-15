@@ -27,21 +27,23 @@ Through extensive experimentation with model configurations and hyperparameters,
 │
 ├── 📂 code/
 │      └── ResNet_CIFAR10.ipynb         # Main notebook for training and inference
-│      └── model.py                     # Custom ResNet Model
+│      
 │
 ├── 📂 trained_model/
 │      └── model_weights.pth            # Trained model weights
 │
 ├── 📂 docs/
-│      └── project_report.pdf           # Project report (AAAI format)
+│      └── project_report.pdf          
 │
 ├── 📂 plots/
 │      └── loss_curve.png
 │      └── accuracy_curve.png
+│      └── confusion_matrix.png
+├                      # Project documentation
 │
-├── 📝 README.md                        # Project documentation
-│
-└── 📄 requirements.txt                 # Python dependencies
+└── ── 📂 predictions/
+│         └──submissions.csv
+  ── 📝 README.md        
 ```
 
 ---
