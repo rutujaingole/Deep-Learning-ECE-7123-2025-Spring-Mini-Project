@@ -62,7 +62,7 @@ Through extensive experimentation with model configurations and hyperparameters,
 ##  **Results**
 | Metric             | Score         |
 |----------------|---------------------|
-| Train Accuracy        | **96.24%** |
+| Train Accuracy        | **96.22%** |
 | Test Accuracy | **95.56%** |
 ---
 
