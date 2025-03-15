@@ -94,8 +94,8 @@ python inference.py
 
 ## 👤 **Contributors**
 - **Rutuja Ingole**  Net ID: rdi4221
-- **Tanvi Takavane**  Net ID: rdi4221
-- **Abhishek Agrawal** Net ID: rdi4221
+- **Tanvi Takavane**  Net ID: tt2884
+- **Abhishek Agrawal** Net ID: aa9360
 
 ---
 
