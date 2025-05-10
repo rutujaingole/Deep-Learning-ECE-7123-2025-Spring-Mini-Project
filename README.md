@@ -1,10 +1,10 @@
 # CIFAR-10 Image Classification with Custom ResNet - Perceptions (ECE 7123)
 
-Our project focuses on designing a **custom ResNet architecture from scratch with fewer than 5 million parameters.** The goal is to effectively classify images from the CIFAR-10 dataset while optimizing both performance and efficiency.  
+This project focuses on designing a **custom ResNet architecture from scratch with fewer than 5 million parameters.** The goal is to effectively classify images from the CIFAR-10 dataset while optimizing both performance and efficiency.  
 
-The architecture leverages the concept of **BasicBlocks**, which consist of two convolutional layers with batch normalization and ReLU activation. By stacking multiple layers of these blocks, our model is able to extract hierarchical features from the dataset.
+The architecture leverages the concept of **BasicBlocks**, which consist of two convolutional layers with batch normalization and ReLU activation. By stacking multiple layers of these blocks, the model is able to extract hierarchical features from the dataset.
 
-Through extensive experimentation with model configurations and hyperparameters, we successfully trained a custom ResNet model with 3 stages that achieves a test accuracy of 95.56% with 4916284 parameters, staying within the constraint of 5M parameters.  
+Through extensive experimentation with model configurations and hyperparameters, a custom ResNet model was successfully trained with 3 stages that achieves a test accuracy of 95.56% with 4916284 parameters, staying within the constraint of 5M parameters.  
 
 
 | Parameter             | Value                  |
@@ -92,13 +92,6 @@ python inference.py
 
 ##  **Final Submission**
 - Generated `submissions.csv` for Kaggle using `cifar_test_nolabel.pkl`
----
-
-## 👤 **Contributors**
-- **Rutuja Ingole**  Net ID: rdi4221
-- **Tanvi Takavane**  Net ID: tt2884
-- **Abhishek Agrawal** Net ID: aa9360
-
 ---
 
 ##  Reference Papers
